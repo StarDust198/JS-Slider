@@ -2,12 +2,15 @@
 
 Simple JS Slider.
 
-Usage in script file:
+### Usage in script file:
 
+```js
   import slider from './modules/slider';
+```
 
-Initiate example:
+### Initiate example:
 
+```js
   slider({
       next: '.offer__slider-next',
       prev: '.offer__slider-prev',
@@ -17,18 +20,21 @@ Initiate example:
       wrapper: '.offer__slider-wrapper',
       field: '.offer__slider-inner'
   });
+```
   
-Where as: 
-  next - next navigation button(arrow),
-  prev - previous navigation button(arrow),
-  totalCounter - total slides counter, changes text depending on number of slides,
-  currentCount - current slide counter, sets randomly at the page load,
-  slidePack - selector of slide images,
-  wrapper - wrapper of the slider,
-  field - inner wrapper for the slides.
+#### Where as: 
+  ##### next - next navigation button(arrow),
+  ##### prev - previous navigation button(arrow),
+  ##### totalCounter - total slides counter, changes text depending on number of slides,
+  ##### currentCount - current slide counter, sets randomly at the page load,
+  ##### slidePack - selector of slide images,
+  ##### wrapper - wrapper of the slider,
+  ##### field - inner wrapper for the slides
+  <br>
   
- HTML example:
- 
+### HTML example:
+  
+```html  
   <div class="offer__slider">
     <div class="offer__slider-counter">
         <div class="offer__slider-prev">
@@ -58,3 +64,4 @@ Where as:
         </div>
     </div>
   </div>
+```
